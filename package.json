@@ -1,0 +1,33 @@
+{
+  "name": "vue-simple2",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://van-code.github.io/vue-simple2",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.1",
+    "@vue/cli-service": "^4.1.1",
+    "prettier": "^1.18.2",
+    "sass": "^1.23.3",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-vuetify": "^2.0.2",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.4.2"
+  },
+  "dependencies": {
+    "core-js": "^3.4.5",
+    "vue": "^2.6.10",
+    "vuetify": "^2.1.12",
+    "whatwg-fetch": "^3.0.0"
+  }
+}
